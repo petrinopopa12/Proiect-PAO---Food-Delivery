@@ -31,5 +31,9 @@ public class Order {
         Random number = new Random();
         return "ID" + number.nextInt(10000);
     }
+
+    public String CSV(){
+        return restaurant.CSV()+","+user.CSV()+","+driver.CSV();
+    }
     
 }

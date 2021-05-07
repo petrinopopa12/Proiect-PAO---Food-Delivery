@@ -48,4 +48,8 @@ public class Restaurant {
     public String toString(){
         return "["+"name= "+name+", adress= "+adress+", owner= "+owner+", employees_nr= "+employeesNumber+"]";
     }
+
+    public String CSV(){
+        return name+","+adress+","+owner+","+employeesNumber;
+    }
 }

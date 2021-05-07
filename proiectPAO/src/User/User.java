@@ -50,4 +50,8 @@ public class User {
     public String toString(){
         return "["+" first name= "+firstName+", last name= "+lastName+", adress= "+adress+"]";
     }
+
+    public String CSV(){
+        return firstName+","+lastName+","+adress;
+    }
 }

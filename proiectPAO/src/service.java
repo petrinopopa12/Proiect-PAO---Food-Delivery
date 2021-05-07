@@ -1,4 +1,5 @@
 import Driver.Driver;
+import Order.Order;
 import Restaurant.Restaurant;
 import User.User;
 
@@ -11,6 +12,7 @@ public class service {
     private List<Restaurant> restaurants = new ArrayList<>();
     private List<User> users = new ArrayList<>();
     private List<Driver> drivers = new ArrayList<>();
+    private List<Order> orders = new ArrayList<>();
     private int nrRest;
     private int nrUser;
     private int nrDriv;
@@ -84,5 +86,37 @@ public class service {
     public void showIfCar(Scanner in) {
         var driv = this.getDriv(in);
         System.out.println(driv.ifCar());
+    }
+
+    public List<Driver> getDrivers(){
+        return drivers;
+    }
+
+    public List<Order> getOrders(){
+        return orders;
+    }
+
+    public List<Restaurant> getRestaurants(){
+        return restaurants;
+    }
+
+    public List<User> getUsers(){
+        return users;
+    }
+
+    public void setDrivers(List<Driver> drivers){
+        this.drivers=drivers;
+    }
+
+    public void setOrders(List<Order> orders){
+        this.orders=orders;
+    }
+
+    public void setRestaurants(List<Restaurant> restaurants){
+        this.restaurants=restaurants;
+    }
+
+    public void setUsers(List<User> users){
+        this.users=users;
     }
 }

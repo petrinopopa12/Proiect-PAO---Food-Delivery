@@ -29,7 +29,7 @@ public class Driver {
         this.firstName = in.nextLine();
         System.out.println("Last name: ");
         this.lastName = in.nextLine();
-        System.out.println("Adress: ");
+        System.out.println("Has a car?: ");
         this.isCar = Boolean.valueOf(in.nextLine());
     }
 
@@ -40,5 +40,9 @@ public class Driver {
     @Override
     public String toString(){
         return "["+" first name= "+firstName+", last name= "+lastName+", Car= "+isCar+"]";
+    }
+
+    public String CSV(){
+        return firstName+","+lastName+","+isCar;
     }
 }
