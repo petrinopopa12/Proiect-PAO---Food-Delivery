@@ -45,6 +45,7 @@ public class RestaurantSingleton {
             for (var i : this.restaurants){
                 outCSV.write(i.CSV());
                 outCSV.write("\n");
+                outCSV.flush();
             }
         } catch (IOException e) {
             e.printStackTrace();

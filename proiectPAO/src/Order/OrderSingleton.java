@@ -49,6 +49,7 @@ public class OrderSingleton {
             for (var i : this.orders){
                 outCSV.write(i.CSV());
                 outCSV.write("\n");
+                outCSV.flush();
             }
         } catch (IOException e) {
             e.printStackTrace();

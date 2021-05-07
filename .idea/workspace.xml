@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef2efa07-a86f-4c17-aabf-d714b26a315d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/proiectPAO/data/audit.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proiectPAO/data/drivers.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proiectPAO/data/orders.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proiectPAO/data/restaurants.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proiectPAO/data/users.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proiectPAO/src/Driver/DriverSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proiectPAO/src/Order/OrderSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proiectPAO/src/Restaurant/RestaurantSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proiectPAO/src/User/UserSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proiectPAO/src/audit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proiectPAO/src/Driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/proiectPAO/src/Driver/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proiectPAO/src/Order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/proiectPAO/src/Order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proiectPAO/src/Restaurant/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/proiectPAO/src/Restaurant/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proiectPAO/src/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/proiectPAO/src/User/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proiectPAO/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/proiectPAO/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proiectPAO/src/service.java" beforeDir="false" afterPath="$PROJECT_DIR$/proiectPAO/src/service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proiectPAO/data/audit.csv" beforeDir="false" afterPath="$PROJECT_DIR$/proiectPAO/data/audit.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proiectPAO/data/drivers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/proiectPAO/data/drivers.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proiectPAO/data/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/proiectPAO/data/users.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proiectPAO/src/Driver/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/proiectPAO/src/Driver/DriverSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proiectPAO/src/Order/OrderSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/proiectPAO/src/Order/OrderSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proiectPAO/src/Restaurant/RestaurantSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/proiectPAO/src/Restaurant/RestaurantSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proiectPAO/src/User/UserSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/proiectPAO/src/User/UserSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,5 +73,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

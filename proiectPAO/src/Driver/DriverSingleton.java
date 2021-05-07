@@ -42,6 +42,7 @@ public class DriverSingleton {
             for (var i : this.drivers){
                 outCSV.write(i.CSV());
                 outCSV.write("\n");
+                outCSV.flush();
             }
         } catch (IOException e) {
             e.printStackTrace();

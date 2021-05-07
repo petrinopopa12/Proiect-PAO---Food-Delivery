@@ -45,6 +45,7 @@ public class UserSingleton {
             for (var i : this.users){
                 outCSV.write(i.CSV());
                 outCSV.write("\n");
+                outCSV.flush();
             }
         } catch (IOException e) {
             e.printStackTrace();
