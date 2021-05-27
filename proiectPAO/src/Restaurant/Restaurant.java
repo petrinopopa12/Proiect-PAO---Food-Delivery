@@ -17,6 +17,12 @@ public class Restaurant {
         this.employeesNumber = employeesNumber;
     }
 
+    public Restaurant(String name, String adress, String owner) {
+        this.name = name;
+        this.adress = adress;
+        this.owner = owner;
+    }
+
     public Restaurant(Scanner in) throws ParseException  {
         this.read(in);
     }
@@ -43,6 +49,8 @@ public class Restaurant {
     public String getName(){
         return name;
     }
+
+    public String getOwner(){ return owner; }
 
     @Override
     public String toString(){

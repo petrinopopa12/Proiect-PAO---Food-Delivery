@@ -23,6 +23,23 @@ public class service {
         System.out.println("Restaurant added.");
     }
 
+    public Restaurant addRest() {
+        Scanner scanner1 = new Scanner(System.in);
+
+        System.out.println("Restaurant's name: ");
+        String name = scanner1.nextLine();
+
+        System.out.println("address: ");
+        String address = scanner1.nextLine();
+
+        System.out.println("owner: ");
+        String owner = scanner1.nextLine();
+
+        Restaurant r = new Restaurant(name, address, owner);
+
+        return r;
+    }
+
     public void addUser(Scanner in) throws ParseException{
         this.users.add(User.addUser(in));
         nrUser++;

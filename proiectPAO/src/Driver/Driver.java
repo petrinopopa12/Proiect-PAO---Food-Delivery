@@ -16,6 +16,12 @@ public class Driver {
         this.isCar = isCar;
     }
 
+    public Driver(String firstName, String lastName){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        //this.isCar = isCar;
+    }
+
     public Driver(Scanner in) throws ParseException {
         this.read(in);
     }
@@ -44,5 +50,13 @@ public class Driver {
 
     public String CSV(){
         return firstName+","+lastName+","+isCar;
+    }
+
+    public String getFirstName(){
+        return firstName;
+    }
+
+    public String getLastName(){
+        return lastName;
     }
 }

@@ -46,6 +46,14 @@ public class User {
         return adress;
     }
 
+    public String getFirstName(){
+        return firstName;
+    }
+
+    public String getLastName(){
+        return lastName;
+    }
+
     @Override
     public String toString(){
         return "["+" first name= "+firstName+", last name= "+lastName+", adress= "+adress+"]";

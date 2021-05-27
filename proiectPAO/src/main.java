@@ -1,5 +1,8 @@
+import DB.ConnectionDB;
+import DB.RestaurantDB;
 import Driver.DriverSingleton;
 import Order.OrderSingleton;
+import Restaurant.Restaurant;
 import Restaurant.RestaurantSingleton;
 import User.UserSingleton;
 
@@ -22,16 +25,24 @@ public class main {
         UserSingleton.getInstance().readCSV();
         serv.setUsers(UserSingleton.getInstance().getUsers());
 
+        //ConnectionDB.getConnection();
+
+        //RestaurantDB rest = new RestaurantDB();
+
         int x = 0;
         while (x == 0){
             System.out.println("Command: ");
             String c = in.nextLine().toLowerCase(Locale.ROOT);
             try{
                 switch (c){
-                    case "add_restaurant" -> serv.addRestaurant(in);
+                    case "add_restDB" -> {
+                        Restaurant restaurant = serv.addRest();
+                        //rest.create(restaurant);
+                    }
+                    case "add_restaurant" -> {serv.addRestaurant(in);}
                     case "add_user" -> serv.addUser(in);
                     case "add_driver" -> serv.addDriver(in);
-                    case "get_restaurant" -> serv.showRestaurant(in);
+                    case "get_restaurant" -> {serv.showRestaurant(in);}
                     case "get_user" -> serv.showUser(in);
                     case "get_driver" -> serv.showDriver(in);
                     case "restaurant_adress" -> serv.showRestaurantAdress(in);
